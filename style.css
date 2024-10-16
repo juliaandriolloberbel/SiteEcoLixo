@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #d2e3cc; 
+    color: black; 
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #FFFFFF; 
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.header-container {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    width: 100%; 
+}
+
+header img {
+    width: 150px; 
+    height: auto; 
+    margin-right: 20px; 
+}
+
+nav {
+    display: flex;
+    justify-content: center; 
+    gap: 10px; 
+    flex-wrap: nowrap; 
+}
+
+nav a {
+    text-decoration: none;
+    color: #4D6F73; 
+    font-weight: bold;
+    font-size: 16px; 
+    padding: 5px 10px; 
+    transition: color 0.3s;
+    border-radius: 5px; 
+}
+
+nav a:hover {
+    color: #2a5d23; 
+    background-color: #e0f4e4; 
+}
+
+main {
+    flex: 1;
+    padding: 40px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    padding: 40px; 
+}
+
+h1 {
+    margin-bottom: 20px; 
+    text-align: center; 
+}
+
+.box1 {
+    max-width: 500px; 
+    text-align: center; 
+    margin: 20px; 
+}
+
+.box1 img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+h1 {
+    margin-bottom: 20px; 
+}
+
+.imagens {
+    display: flex;
+    justify-content: center; 
+    gap: 0; 
+    flex-wrap: wrap; 
+}
+
+.imagem-box {
+    max-width: 400px; 
+    margin: 0;
+}
+
+.imagem-box img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.imagens div {
+    display: block; 
+    margin: 0 auto;
+}
+
+.imagens img {
+    width: 60%; 
+    height: auto; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    display: flex;
+    justify-content: center; 
+}
+
+.box {
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center; 
+}
+
+.box2 {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    max-width: 600px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center; 
+}
+
+.box2 h2, .box2 h1 {
+    color: #2a5d23;
+    margin: 10px 0; 
+}
+
+.box2 p {
+    font-size: 16px;
+    margin: 10px 0; 
+}
+
+.box2 img {
+    width: 100%; 
+    max-width: 300px; 
+    height: auto; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+
+.box2 ul {
+    list-style: none; 
+    padding: 0; 
+}
+
+.box2 li {
+    margin: 10px 0; 
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    padding: 40px; 
+}
+
+.box h2 {
+    color: #2a5d23;
+}
+
+.box-group {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; 
+}
+
+.box-group .box {
+    margin: 10px; 
+}
+
+.box-unique {
+    width: 100%; 
+    max-width: 500px; 
+}
+
+.contato {
+    text-align: center; 
+    margin-top: 20px;
+}
+
+.contato h2 {
+    color: #2a5d23; 
+    margin-bottom: 15px; 
+}
+
+.contato-info {
+    background-color: white;
+    border-radius: 10px; 
+    padding: 40px; 
+    max-width: 800px; 
+    margin: 0 auto; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.contato-info p {
+    margin: 10px 0; 
+    font-size: 16px; 
+    display: flex; 
+    align-items: center; 
+}
+
+.contato-info img {
+    width: 20px; 
+    height: 20px; 
+    margin-right: 10px; 
+}
